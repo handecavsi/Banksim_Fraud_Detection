@@ -15,11 +15,11 @@ This project focuses on detecting fraudulent transactions using the BankSim data
 **1. Project Overview**
 This project aims to detect fraudulent transactions in the BankSim dataset. The project involves the following steps:
 
-*Data Preprocessing:* Cleaning and preparing the data for analysis.
-*Feature Engineering:* Creating new features to improve model performance.
-*Model Training:* Training different machine learning models and evaluating their performance.
-*Graph Mining:* Visualizing and analyzing the data using Neo4j and graph mining algorithms.
-*Results Comparison:* Comparing the performance of different models and approaches.
+- *Data Preprocessing:* Cleaning and preparing the data for analysis.
+- *Feature Engineering:* Creating new features to improve model performance.
+- *Model Training:* Training different machine learning models and evaluating their performance.
+- *Graph Mining:* Visualizing and analyzing the data using Neo4j and graph mining algorithms.
+- *Results Comparison:* Comparing the performance of different models and approaches.
 
 **2. Data Preprocessing**
 - Loading the Data
@@ -40,12 +40,12 @@ Principal Component Analysis (PCA) is applied to reduce the dimensionality of th
 **3. Feature Engineering**
 Additional features are created using graph mining algorithms in Neo4j. These features include:
 
-*merchDegree:* Degree of the merchant node.
-*custDegree:* Degree of the customer node.
-*custPageRank:* PageRank of the customer node.
-*merchPageRank:* PageRank of the merchant node.
-*merchCommunity:* Community detection for the merchant node.
-*custCommunity:* Community detection for the customer node.
+- *merchDegree:* Degree of the merchant node.
+- *custDegree:* Degree of the customer node.
+- *custPageRank:* PageRank of the customer node.
+- *merchPageRank:* PageRank of the merchant node.
+- *merchCommunity:* Community detection for the merchant node.
+- *custCommunity:* Community detection for the customer node.
 These features are integrated back into the dataset for further analysis.
 
 **4.Model Training**
