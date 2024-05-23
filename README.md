@@ -67,24 +67,28 @@ The models are evaluated using metrics such as accuracy, precision, recall, F1-s
 
 **5. Graph Mining**
 
-*Connecting to Neo4j*
+- *Connecting to Neo4j*
 The dataset is imported into Neo4j for graph visualization and analysis. The features are computed using Cypher queries and integrated back into the dataset.
 
-*Graph Features*
+- *Graph Features*
 Graph mining algorithms such as PageRank and community detection are applied to extract meaningful features from the data.
 
 **6. Results**
+
 The performance of different models is compared based on their evaluation metrics. The results demonstrate the impact of graph-based features on model performance.
 
 **7. Conclusion**
+
 The project highlights the importance of data preprocessing, feature engineering, and graph mining in improving the performance of fraud detection models. The combination of machine learning and graph-based features provides a comprehensive approach to detecting fraudulent transactions.
 
 *Prerequisites*
+
 - Python 3.6 or higher
 - Neo4j database
 - Required Python libraries: numpy, pandas, py2neo, sklearn, xgboost, imblearn
 
 *Reference*
+
 - You can check out my article for more details:
 - Detection of Fraud in Bank Payments Using Graph Mining and Machine Learning Algorithms [link](https://dergipark.org.tr/en/pub/dumf/issue/65099/1002110) 
   
